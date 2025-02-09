@@ -93,3 +93,51 @@ body {
   margin-top: 2em;
   resize: none;
 }
+
+@media (max-width: 768px) {
+  .notes {
+    flex-direction: column;
+  }
+
+  .notes__sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 2px solid #dddddd;
+    padding: 0.5em;
+  }
+
+  .notes__preview {
+    padding: 1em;
+  }
+
+  .notes__title {
+    font-size: 2em;
+  }
+
+  .notes__body {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .notes__sidebar {
+    padding: 0.25em;
+  }
+
+  .notes__preview {
+    padding: 0.5em;
+  }
+
+  .notes__title {
+    font-size: 1.5em;
+  }
+
+  .notes__body {
+    font-size: 0.9em;
+  }
+
+  .notes__add {
+    font-size: 1em;
+    padding: 0.5em 0;
+  }
+}
