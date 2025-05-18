@@ -38,7 +38,7 @@ A minimal and intuitive Notes application built with **ReactJS**, allowing users
 ### ⚙️ Installation & Setup
 
 1. Clone the repository
-   `git clone https://github.com/yourusername/notes-app.git`
+   `git clone https://github.com/rajputshivamthakur/Notes-App.git`
 
 2. Navigate into the project directory
    `cd notes-app`
